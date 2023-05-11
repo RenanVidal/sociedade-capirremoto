@@ -8,6 +8,7 @@
     padding: 0.5em 0.5em;
     text-decoration: none;
     flex-wrap: nowrap;
+    box-sizing: border-box;
 }
 
 .navbar ul {
@@ -15,5 +16,5 @@
 }
 
 .navbar li {
-
+    padding-left: 0.3rem;
 }

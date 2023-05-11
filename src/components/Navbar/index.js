@@ -1,6 +1,6 @@
-import './Navbar.css'
+import './Navbar.css';
 
-const Navbar = (props) => {
+const Navbar = () => {
     return (
         <nav className='navbar'>
             <i className="ri-menu-line"></i>
