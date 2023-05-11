@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+    border: 0.0625rem solid rgb(88, 58, 58);
+    border-radius: 0.625rem;
+    margin: 1rem 1rem;
+}
+
+.card img {
+    border: 0.1875rem solid black;
+    border-radius: 100%;
+    width: 7rem;
+    height:7rem;
+    margin: .5rem .5rem;
+}
+
+.card div {
+    
+}
+
+.card h3 {
+    text-align: left;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card strong {
+    font-weight: 700;
+}
+
+.card p {
+    text-align: justify;
+    padding: .5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.card a {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+.card i {
+    font-size: 1rem;
+    padding-right: .5rem;
+}

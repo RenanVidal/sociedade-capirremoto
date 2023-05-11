@@ -8,3 +8,7 @@
     text-align: center;
     margin: 1rem;
 }
+
+.about strong {
+    font-weight: 800;
+}

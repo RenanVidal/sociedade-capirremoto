@@ -3,10 +3,11 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
 import Cards from './components/Cards';
+import React, {Fragment} from 'react';
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
       <header>
         <Navbar />
       </header>
@@ -15,7 +16,7 @@ function App() {
         <About />
         <Cards />
       </main>
-    </div>
+    </Fragment>
   );
 }
 
