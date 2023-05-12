@@ -1,5 +1,5 @@
 .about {
-
+    
 }
 
 .about h2 {
@@ -7,6 +7,11 @@
     font-weight: 400;
     text-align: center;
     margin: 1rem;
+}
+
+.about p {
+    text-align: justify;
+    padding: 1rem;
 }
 
 .about strong {

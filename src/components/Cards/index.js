@@ -7,9 +7,9 @@ const Cards = (props) => {
             <div className='card'>
                 <img src='' alt='' />
                 <div>
-                    <h3>Luiz Eduardo <strong>"Dud's"</strong> Vilar</h3>
+                    <h3>{props.nome} <strong>{props.nick}</strong> {props.sobrenome}</h3>
                     <p>Cofundador do Canal, Narrador e muitas vezes jogar. Duds é um dos narradores do canal conduzindo mesas desde D&D até Lobisomem o Apocalipse, se destacando principalmente por sua narrativa nos cenários do mundo das trevas!</p>
-                    <a href="#"><i className='ri-instagram-line'></i>@dudscapirremoto</a>
+                    <a href><i className='ri-instagram-line'></i>@dudscapirremoto</a>
                 </div>
             </div>
         </section>
