@@ -1,12 +1,27 @@
+.title {
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 0.875rem;
     border: 0.0625rem solid rgb(88, 58, 58);
     border-radius: 0.625rem;
     margin: 1rem 1rem;
+    width: 30%;
+    flex-wrap: wrap;
 }
 
 .card img {
@@ -49,4 +64,76 @@
 .card i {
     font-size: 1rem;
     padding-right: .5rem;
+}
+
+@media (min-width: 1420px) {
+    
+    .title {
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.750rem;
+        border: 0.0625rem solid rgb(88, 58, 58);
+        border-radius: 0.625rem;
+        margin: 1rem 1rem;
+        width: 30%;
+        flex-wrap: wrap;
+    }
+
+    .card img {
+        border: 0.1875rem solid black;
+        border-radius: 100%;
+        width: 9rem;
+        height: 9rem;
+        margin: .5rem .5rem;
+    }
+
+    .card div {
+        
+    }
+
+    .card h3 {
+        text-align: left;
+        padding: .5rem;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .card strong {
+        font-weight: 700;
+    }
+
+    .card p {
+        text-align: justify;
+        padding: .5rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .card a {
+        font-size: 1.8rem;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        padding: .5rem;
+    }
+
+    .card i {
+        font-size: 2.5rem;
+        padding-right: .5rem;
+    }
 }

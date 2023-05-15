@@ -17,3 +17,26 @@
 .about strong {
     font-weight: 800;
 }
+
+@media (min-width: 1420px) {
+    .about {
+        
+    }
+
+    .about h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .about p {
+        font-size: 2rem;
+        text-align: justify;
+        padding: 1.5rem;
+    }
+
+    .about strong {
+        font-weight: 800;
+    }
+}

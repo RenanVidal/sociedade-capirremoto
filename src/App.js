@@ -4,6 +4,9 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Cards from './components/Cards';
 import React, {Fragment} from 'react';
+import Calendar from './components/Calendar';
+import Videos from './components/Videos';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -26,7 +29,12 @@ function App() {
         <Banner />
         <About />
         <Cards team/>
+        <Calendar />
+        <Videos />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </Fragment>
   );
 }

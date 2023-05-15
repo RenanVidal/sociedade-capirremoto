@@ -1,0 +1,21 @@
+.agenda {
+
+}
+
+.agenda h2 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem;
+}
+
+@media (min-width: 1420px) {
+
+    .agenda h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        margin: 1rem;
+    }
+
+}

@@ -24,3 +24,32 @@
     padding: .5rem;
 }
 
+@media (min-width: 1420px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/public/Image/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 90vh;
+        box-sizing: border-box;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .banner h1 {
+        font-size: 8rem;
+        font-weight: 500;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    
+    .banner p {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: .5rem;
+    }
+}
+

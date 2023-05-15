@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f0103;
+    padding: 1rem;
+}
+
+.footer h2 strong {
+    font-size: 2rem;
+}
