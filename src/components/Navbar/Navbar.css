@@ -19,6 +19,18 @@
     padding-left: 0.3rem;
 }
 
+.navbar div+ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;   
+}
+
+.navbar div+ul+li {
+   padding: 1em;
+    background-color: #ffffff; 
+}
+
 @media (min-width: 1220px) {
 
     .navbar {
