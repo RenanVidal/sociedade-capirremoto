@@ -2,7 +2,7 @@ import './Videos.css';
 
 const Videos = () => {
     return (
-        <section className="videos">
+        <section className="videos" id='recomendacoes'>
             <h2>Recomendações</h2>
             <p>
                 Dê uma passadinha no nosso youtube e venha conhecer algumas das nossas campanhas de sucesso:

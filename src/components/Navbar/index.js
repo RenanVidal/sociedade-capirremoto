@@ -2,8 +2,27 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className='navbar'>
-            <i className="ri-menu-line"></i>
+        <nav className='navbar' id='navbar'>
+            <div>
+                <i className="ri-menu-line"></i>
+                <ul>
+                    <li>
+                        <a href='#navbar'>Topo</a>
+                    </li>
+                    <li>
+                        <a href='#about'>Sobre</a>
+                    </li>
+                    <li>
+                        <a href='#equipe'>Equipe</a>
+                    </li>
+                    <li>
+                        <a href='#agenda'>Agenda</a>
+                    </li>
+                    <li>
+                        <a href='#recomendacoes'>Recomendações</a>
+                    </li>
+                </ul>
+            </div>
             <ul >
                 <li>
                     <a href="https://www.facebook.com/Capirremoto"><i className="ri-facebook-fill"></i></a>

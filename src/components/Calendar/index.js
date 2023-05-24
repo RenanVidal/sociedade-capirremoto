@@ -22,7 +22,7 @@ const Calendar = () => {
   console.log(calendarData);
   
   return (
-    <section className='calendar' id='calendar'>
+    <section className='calendar' id='agenda'>
       <h2>Agenda</h2>
       {calendarData.map((item) => (
         <div key={item.id}>
