@@ -22,7 +22,7 @@ const Calendar = () => {
   console.log(calendarData);
   
   return (
-    <section className='calendar'>
+    <section className='calendar' id='calendar'>
       <h2>Agenda</h2>
       {calendarData.map((item) => (
         <div key={item.id}>
@@ -37,16 +37,3 @@ const Calendar = () => {
 };
 
 export default Calendar;
-
-
-// const Calendar = () => {
-//     return (
-//         <section className='agenda' id="agenda">
-//             <h2>Agenda</h2>
-//             <ul alt="Lista de eventos" data-lista>
-//             </ul>
-//         </section>
-//     );
-// }
-
-// export default Calendar;

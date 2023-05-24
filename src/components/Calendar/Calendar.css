@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     line-height: 1.5;
+    margin: 2rem 0;
 }
 
 .calendar h2 {
@@ -19,13 +20,64 @@
     font-weight: 600;
 }
 
+.calendar h4 {
+    font-size: 1.5rem;
+}
+
+.calendar p {
+    font-size: 1.5rem;
+}
+
+.calendar a {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.calendar i {
+    font-size: 2rem;
+}
+
+.calendar strong {
+    font-weight: 800;
+}
+
 @media (min-width: 1420px) {
+
+    .calendar {
+        margin: 7rem 0;
+    }
 
     .calendar h2 {
         font-size: 3rem;
         font-weight: 400;
         text-align: center;
         margin: 1rem;
+    }
+
+    .calendar h3 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .calendar h4 {
+        font-size: 3rem;
+    }
+    
+    .calendar p {
+        font-size: 3em;
+    }
+    
+    .calendar a {
+        font-size: 3rem;
+        align-self: center;
+    }
+    
+    .calendar i {
+        font-size: 4rem;
+    }
+    
+    .calendar strong {
+        font-weight: 800;
     }
 
 }

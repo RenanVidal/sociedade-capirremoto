@@ -1,12 +1,21 @@
+:root {
+  --cor-icones-padrao: white;
+  --fonte-titulos: 'Teko', sans-serif;
+  --fonte-primaria: 'Nanum Gothic', sans-serif; 
+  --fonte-secundaria: 'Tilt Neon', cursive;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--fonte-primaria);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to top,  #000000, #0b0002, #130004, #1a0104, #1f0103, #280507, #310709, #3b070b, #4e0710, #610612, #750512, #890511);
   color: #ffffff;
+}
+
+body h2 {
+  font-family: var(--fonte-titulos);
 }
 
 code {
