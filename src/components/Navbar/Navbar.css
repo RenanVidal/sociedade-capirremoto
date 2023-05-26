@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: black;
@@ -9,6 +10,31 @@
     text-decoration: none;
     flex-wrap: nowrap;
     box-sizing: border-box;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container i {
+    display: inline-block;
+}
+
+
+
+.container ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:100%;
+}
+
+.container ul li {
+    padding: 1em;
+    background-color: #000000;
 }
 
 .navbar ul {
@@ -19,25 +45,13 @@
     padding-left: 0.3rem;
 }
 
-.navbar div+ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vw;   
-}
-
-.navbar div+ul+li {
-   padding: 1em;
-    background-color: #ffffff; 
-}
-
 @media (min-width: 1220px) {
 
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: black;
+        background-color: #000000;
         font-size: 2.5rem;
         color: #ffffff;
         padding: 0.5em 0.5em;

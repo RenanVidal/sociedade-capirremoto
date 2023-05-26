@@ -5,7 +5,7 @@ import './Cards.css';
 const Cards = () => {
     return (
         <Fragment>
-                    <h2 className='title' id='equipe'>Equipe</h2>
+                    <h2 className='title' >Equipe</h2>
                     <section className='cards'>
                         <div className='card'>
                             <img src="/Image/duds.jpg" alt="Foto do Duds" />

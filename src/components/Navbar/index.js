@@ -1,9 +1,18 @@
+import Siderbar from '../Sidebar';
 import './Navbar.css';
+
 
 const Navbar = () => {
     return (
-        <nav className='navbar' id='navbar'>
-            <div>
+        <nav className='navbar'>
+            <div id="outer-container">
+                <i className="ri-menu-line"></i>
+                <Siderbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                <div id="page-wrap">
+                    
+                </div>
+            </div>
+            {/* <div className='container'>
                 <i className="ri-menu-line"></i>
                 <ul>
                     <li>
@@ -22,7 +31,7 @@ const Navbar = () => {
                         <a href='#recomendacoes'>Recomendações</a>
                     </li>
                 </ul>
-            </div>
+            </div> */}
             <ul >
                 <li>
                     <a href="https://www.facebook.com/Capirremoto"><i className="ri-facebook-fill"></i></a>
