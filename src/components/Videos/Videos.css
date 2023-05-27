@@ -8,7 +8,7 @@
 }
 
 .videos h2 {
-    font-size: 3rem;
+    font-size: 1.875rem;
     font-weight: 400;
     text-align: center;
     margin: 1rem;
@@ -16,4 +16,34 @@
 
 .videos iframe{
     padding: 1rem 0 1rem 0 ;
+}
+
+@media (min-width: 1200px) {
+
+    .videos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 1rem;
+    }
+
+    .videos p {
+        font-size: 1.5rem;
+    }
+    
+    .videos h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        margin: 1rem;
+    }
+    
+    .videos iframe{
+        padding: 1rem 0 1rem 0 ;
+        width: 85vw;
+        height: 100vh;
+        
+    }    
 }

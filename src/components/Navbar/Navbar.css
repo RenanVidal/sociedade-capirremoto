@@ -45,7 +45,7 @@
     padding-left: 0.3rem;
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1200px) {
 
     .navbar {
         display: flex;

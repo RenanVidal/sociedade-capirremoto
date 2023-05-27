@@ -5,13 +5,13 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <nav className='navbar'>
-            <div id="outer-container">
-                <i className="ri-menu-line"></i>
-                <Siderbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-                <div id="page-wrap">
-                    
-                </div>
-            </div>
+            
+                <i className="ri-menu-line" id="outer-container"></i>
+               
+                {/* <div id="page-wrap">
+                    <Siderbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                </div> */}
+            
             {/* <div className='container'>
                 <i className="ri-menu-line"></i>
                 <ul>
@@ -46,7 +46,7 @@ const Navbar = () => {
                     <a href="https://twitter.com/capirremoto"><i className="ri-twitter-fill"></i></a>
                 </li>
                 <li>
-                    <a href="https://youtube.com/watch?v=1L79h-bcmp8"><i className="ri-youtube-fill"></i></a>
+                    <a href="https://www.youtube.com/@SociedadeCapirremoto"><i className="ri-youtube-fill"></i></a>
                 </li>
             </ul>
         </nav>

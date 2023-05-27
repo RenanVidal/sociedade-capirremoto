@@ -14,6 +14,7 @@
 }
 
 .banner h1 {
+    font-family: var(--fonte-titulos);
     font-size: 2.1875rem;
     font-weight: 500;
     padding: 1rem 1rem 1rem 1rem;
@@ -24,7 +25,7 @@
     padding: .5rem;
 }
 
-@media (min-width: 1420px) {
+@media (min-width: 1200px) {
     .banner {
         display: flex;
         flex-direction: column;
