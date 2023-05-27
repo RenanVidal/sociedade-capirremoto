@@ -31,7 +31,7 @@ const Calendar = () => {
   console.log(calendarData);
   
   return (
-    <section className='calendar' id='calendar'>
+    <section className='calendar' id='agenda'>
       <h2>Agenda</h2>
       {calendarData.length > 0 && (
         <div key={calendarData[currentIndex].id}>
