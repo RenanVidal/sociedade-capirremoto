@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <a href='#about' onClick={handleIconClick}>Sobre</a>
                             </li>
                             <li>
-                                <a href='#equipe' onClick={handleIconClick}>Equipe</a>
+                                <a href='#equipe' onClick={handleIconClick} id="FodaSe">Equipe</a>
                             </li>
                             <li>
                                 <a href='#agenda'onClick={handleIconClick}>Agenda</a>
